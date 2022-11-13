@@ -1,0 +1,36 @@
+.btn{
+    padding: 1%;
+    border-radius: 40px;
+    width: 15%;
+    font-weight: 600;
+}
+
+.container-name-button{
+    margin-top: 10%;
+    
+}
+
+.container-name-button-text{
+    font-weight: 600;
+    text-align: center;
+    
+}
+.col-text{
+
+    text-align: justify;
+}
+
+.container-purple{
+    background-color: #BC4DF7;
+    
+}
+.container-purple-text{
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .btn{
+        width: 30%;
+        padding: 2%;
+    }
+}
