@@ -9,6 +9,9 @@
     margin-top: 10%;
     
 }
+.img:hover,.down-img:hover,.img-top:hover {
+    transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
 
 .container-name-button-text{
     font-weight: 600;
@@ -30,7 +33,23 @@
 
 @media screen and (max-width: 768px){
     .btn{
-        width: 30%;
+        width: 50%;
         padding: 2%;
+    }
+    .down-img{
+        width:320px;
+        height: 320px;
+        margin-left: 2% !important;
+        margin-top: -20%;
+    }
+    .lateral-imgs{
+        margin-left: 5%;
+    }
+    .img{
+        margin-top: 2%;
+    }
+    .img-top{
+        margin-top: -10%;
+        margin-bottom: -20%;
     }
 }
